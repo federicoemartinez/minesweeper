@@ -105,7 +105,7 @@ class Cell(object):
     def propagate_click(self, board, neighbors):
         raise NotImplementedError
 
-# A plain cell is a cell without a bomb. It's content is the amount
+# A plain cell is a cell without a bomb. Its content is the amount
 # of close bombs.
 class PlainCell(Cell):
     def __init__(self, counter):
